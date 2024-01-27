@@ -4,7 +4,7 @@ const setAlarmBtn = document.querySelector("button");
 const content = document.querySelector(".content");
 
 let alarmTime, isAlarmSet = false,
-  ringtone = new Audio("sound.mp3");
+  ringtone = new Audio("./utils/sound.mp3");
 
 //To display list of 12 hours
 
